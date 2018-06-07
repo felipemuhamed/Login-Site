@@ -1,0 +1,41 @@
+body {
+  background: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/web-site-background-image-7.jpg")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container {
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  background-color: rgba(52, 73, 94, 0.6);
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+
+input {
+  padding-left: 45px;
+  height: 45px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.form-input::before {
+  content: "\f007";
+  position: absolute;
+  font-family: "FontAwesome";
+  font-size: 30px;
+}
