@@ -25,7 +25,7 @@ body {
 }
 
 input {
-  padding-left: 45px;
+  padding-left: 40px;
   height: 45px;
   width: 300px;
   font-size: 18px;
@@ -37,5 +37,12 @@ input {
   content: "\f007";
   position: absolute;
   font-family: "FontAwesome";
-  font-size: 30px;
+  font-size: 35px;
+  color: #9b59b6;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.form-input:last-child::before {
+  content: "\f023";
 }
