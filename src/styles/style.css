@@ -16,7 +16,7 @@ body {
   background-color: rgba(52, 73, 94, 0.6);
   border-radius: 4px;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 
 /* Container keyframe */
@@ -118,4 +118,5 @@ input[type="text"],
 
 a {
   color: #fff;
+  cursor: pointer;
 }

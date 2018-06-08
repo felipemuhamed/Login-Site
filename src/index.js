@@ -1,11 +1,15 @@
 import React from "react";
 import { render } from "react-dom";
-import Form from "./Form";
 import styles from "./styles/style.css";
+import headerStyles from "./styles/header_style.css";
 
+//Components
+import Form from "./Form";
+import Header from "./Header";
 const App = () => (
-  <div style={styles}>
-    <Form />
+  <div>
+    <Header style={headerStyles} />
+    <Form style={styles} />
   </div>
 );
 
