@@ -26,6 +26,10 @@ export default class Header extends Component {
       <div className="wrapper">
         <nav className={this.state.scroll_s ? "black" : "nav"}>
           <div className="logo">LOGO</div>
+          <img
+            id="img"
+            src="https://cdn4.iconfinder.com/data/icons/wirecons-free-vector-icons/32/menu-alt-512.png"
+          />
           <ul>
             <li>
               <a href="#">HOME</a>
